@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+  
+}
+.headerSection{
+    display: flex;
+    margin: 5px;
+    background-color: orange;
+    border: 3px solid black;
+    border-radius: 20px;
+   
+}
+#headerheadings{
+    font-size: 12px;
+    margin: 20px 40px 0px 20px;
+    color: rgb(24, 25, 23);
+    font-style: italic;
+    text-shadow: 1px 1px red;
+    font-size: 20px;
+}
+.imglogo{
+    background-color: orange;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 5px 0px 5px 15px;
+}
+
+#bodyImage{
+   width: 100%;
+    height: 250px;
+    border: 3px solid orange;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+body{
+    background-color: beige;
+    margin: auto;
+    padding: 10px;
+    width: 900px;
+    border: 2px solid rgb(223, 177, 60);
+    
+}
+
+
+.menuLinks{
+   background-color: rgb(171, 166, 166);
+   text-align: center;
+   padding:10px;
+   border: 7px;
+   font-size: 110%;
+   border: 2px solid #8b0606
+}
+.menuLinks a{
+   text-decoration:none;
+   margin: 4%;
+   color: whitesmoke;
+}
+.menuLinks a:hover{
+   color: bisque;
+}
+.sidebar{
+   max-width: 35%;
+   height: fit-content;
+   float: left;
+   
+}
+aside h2{
+   color: rgb(135, 184, 135);
+}
+aside ul{
+   list-style-type:disc;
+   padding: 0 0 0 10px;
+}
+
+aside ul li a{
+   text-decoration: none;
+   color: rgb(225, 154, 60);
+   font-size: 110%;
+   
+  }
+
+aside ul li a:hover{
+   text-shadow: 10px;
+   color: #8b0606;
+}
+
+main{
+   float: right;
+   width: 68%;
+   color: rgb(225, 154, 60);
+}
+main h1{
+   text-align: left;
+   color: rgb(190, 25, 25);
+}
+main img{
+   max-width: 400px;
+   
+   border: 1px solid orange;
+}
+main p{
+   text-align: justify;
+}
+
+footer{
+   clear: both;
+  font-size: 100%;
+   width: 100%;
+   text-align: center;
+   background-color:  rgb(246, 41, 41);
+   color: rgb(235, 164, 58);
+   padding: 10px 0;
+   border: 1px solid #080907;
+   font-style: oblique;
+}
